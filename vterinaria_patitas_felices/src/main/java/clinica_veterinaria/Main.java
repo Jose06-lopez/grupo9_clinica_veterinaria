@@ -14,10 +14,20 @@ public class Main {
 
 public class Dueño{
     public static void main(String[] args) {
-        Dueño jesu = new Dueño("Jesu", 20, 123456789)
+        Dueño jesu = new Dueño("Jesu", 20, 123456789);
         jesu.mostrarInfo();
 
-        Dueño valentina = new Dueño("Valentina", 22, 987654321)
+        Dueño valentina = new Dueño("Valentina", 22, 987654321);
         valentina.mostrarInfo();
-    })
+    }
+}
+
+public class Veterinario{
+    public static void main(String[] args) {
+        Veterinario carlos = new Veterinario("Carlos", "Cirugia", 45, 31231231);
+        carlos.mostrarInfo();
+
+        Veterinario samuel = new Veterinario("Samuel", "Cardiología", 34, 2313213123);
+        samuel.mostrarInfo();
+    }
 }
