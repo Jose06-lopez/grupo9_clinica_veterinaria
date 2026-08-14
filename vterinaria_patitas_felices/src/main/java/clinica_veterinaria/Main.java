@@ -11,3 +11,13 @@ public class Main {
         dakota.mostrarInfo();
     }
 }
+
+public class Dueño{
+    public static void main(String[] args) {
+        Dueño jesu = new Dueño("Jesu", 20, 123456789)
+        jesu.mostrarInfo();
+
+        Dueño valentina = new Dueño("Valentina", 22, 987654321)
+        valentina.mostrarInfo();
+    })
+}
